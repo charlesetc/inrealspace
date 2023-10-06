@@ -1,13 +1,91 @@
 body {
   max-width: 600px;
   margin: 4%;
+  font-family: sans-serif;
 }
 
 .title a {
   text-decoration: none;
   color: black;
+
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 ul.errorlist {
   color: red;
+}
+
+a {
+  color: #0051de;
+}
+
+form button {
+  margin-top:10px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 4px 8px;
+  cursor: pointer;
+
+}
+
+button:focus, button:hover {
+  background: #0051de;
+  color: #eee;
+  outline:none;
+}
+
+nav {
+  margin-top: 14px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 6px 8px;
+  margin-left:0;
+  margin-rigtht:16px;
+  color: #0051de;
+  text-decoration: underline;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px;
+  border: 2px solid black;
+  outline: none
+}
+
+form input:focus {
+  border: 2px solid #0051de;
+}
+
+
+form label {
+  display: inline-block;
+}
+
+form .helptext {
+  display: block;
+  margin-top: 10px;
+
+}
+
+form p {
+  margin:0px;
+}
+
+p a { 
+  color: #0051de;
 }

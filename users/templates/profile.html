@@ -3,6 +3,8 @@
 {% block content %}
 <h2>Profile for {{user.email}}</h2>
 
-<a href="{% url 'index' %}">Back to dashboard</a>
+<nav>
+  <a href="{% url 'index' %}">Back to dashboard</a>
+</nav>
 {% endblock %}
 

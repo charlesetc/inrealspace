@@ -2,8 +2,26 @@
 
 {% block content %}
 
-  <h1>Landing</h1>
-  <a href="{% url 'register' %}">Register</a>
-  <a href="{% url 'login' %}">Login</a>
+<p>Hi!</p>
+
+<p> Games in real space is a website dedicated to casual outdoor games,
+currently just in Prospect Park, Brooklyn. The goal is to create a stream of
+diverse outdoor activities that people can join on a whim, and at the same time
+to provide a platform for people to create and share events of their own.
+Examples of such games could be pick-up soccer, capture the flag, frisbee, etc.
+</p>
+
+<p> We live in a world that is more isolated and virtual than ever before.
+Let's get people together, in person, having fun, and moving their bodies —
+    playing games <i>in real space!</i>
+
+<p> Games in real space is invite-only. If you would like to join and do not
+have an invitation, you can send an email to <a
+href="mailto:webmaster@inreal.space">webmaster@inreal.space</a>. </p>
+
+  <nav>
+    <a href="{% url 'register' %}">Sign up</a>
+    <a href="{% url 'login' %}">Login</a>
+  </nav>
 
 {% endblock %}
