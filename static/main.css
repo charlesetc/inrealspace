@@ -1,6 +1,13 @@
 body {
   max-width: 600px;
   margin: 4%;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 1.25;
+}
+
+input {
+  font-size: 15px;
   font-family: sans-serif;
 }
 
@@ -12,10 +19,12 @@ body {
 
 h1 {
   font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 h2 {
   font-size: 20px;
+  font-weight:normal;
 }
 
 ul.errorlist {
@@ -32,7 +41,7 @@ form button {
 
 button {
   background-color: white;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 4px 8px;
   cursor: pointer;
 
@@ -62,13 +71,13 @@ form input {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 4px;
-  border: 2px solid black;
+  padding: 6px;
+  border: 1px solid black;
   outline: none
 }
 
 form input:focus {
-  border: 2px solid #0051de;
+  border: 1px solid #0051de;
 }
 
 
